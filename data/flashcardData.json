@@ -1,0 +1,32 @@
+{
+    "data": {
+        "title": "Realtor Study Flashcards",
+        "cards": [
+            {
+                "question": "1 ",
+                "hint": "1 ",
+                "answer": "1"
+            },
+            {
+                "question": "2",
+                "hint": "2",
+                "answer": "2"
+            },
+            {
+                "question": "3",
+                "hint": "3",
+                "answer": "3"
+            },
+            {
+                "question": "4",
+                "hint": " 4",
+                "answer": "4"
+            },
+            {
+                "question": "5",
+                "hint": "5",
+                "answer": "5"
+            }
+        ]
+    }
+}
