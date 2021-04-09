@@ -16,11 +16,11 @@ header {
 
 header img {
   width: 100%;
-  max-width: 350px;
+  max-width: 250px;
 }
 
 body {
-  background-color: #EDEAD9;
+  background-color: #a0ccd1;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
@@ -160,7 +160,7 @@ input {
 /* Flash Cards */
 .flashcards {
   position: absolute;
-  top: 240px;
+  top: 40px;
   right: 0;
   left: 0;
   bottom: 0;
@@ -343,3 +343,8 @@ input {
   width: 100%;
   height: 24px;
 }
+
+@media (max-width: 12450px) { 
+
+  
+ }

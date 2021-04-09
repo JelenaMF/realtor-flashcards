@@ -1,26 +1,66 @@
 {
     "data": {
-        "title": "Realtor Study Flashcards",
+        "title": "Realtor Flashcards",
         "cards": [
             {
-                "question": "1 ",
-                "hint": "1 ",
-                "answer": "1"
+                "question": "Zoning laws",
+                "hint": "Police",
+                "answer": "Police = enact"
             },
             {
-                "question": "2",
-                "hint": "2",
-                "answer": "2"
+                "question": "Open-end Clause",
+                "hint": "need more money",
+                "answer": "Allows borrower to increase their loans"
             },
             {
-                "question": "3",
-                "hint": "3",
-                "answer": "3"
+                "question": "What are zoning laws?",
+                "hint": "land",
+                "answer": "Controls what can be developed on a land and what you can do with it."
             },
             {
-                "question": "4",
-                "hint": " 4",
-                "answer": "4"
+                "question": "tax shelter",
+                "hint": "save money",
+                "answer": "reduces tax liability"
+            },
+            {
+                "question": "What is the main purpose for zoning ordinances?",
+                "hint": "who does it protect?",
+                "answer": "Homeowner protection"
+            },
+            {
+                "question": "What is zoning ordinances?",
+                "hint": "a rule",
+                "answer": "A rule that defines how property in specific geographic zones can be used. Whether for residential or commercial."
+            },
+            {
+                "question": "Density means?",
+                "hint": "A measurement",
+                "answer": "A measurement of land per acre"
+            },
+            {
+                "question": "What does portability mean?",
+                "hint": "transferable",
+                "answer": "Can take the benefits with them to the new home within 24 months."
+            },
+            {
+                "question": "what is an IRS 1031 exchange?",
+                "hint": "Trading",
+                "answer": "a swap of one investment property for another that allows capital gains tax to be deferred."
+            },
+            {
+                "question": "Liabilities",
+                "hint": "debt",
+                "answer": "all debt, including accounts and notes are payable."
+            },
+            {
+                "question": "Asset",
+                "hint": "resources",
+                "answer": "Entire resources including tangible and intangible"
+            },
+            {
+                "question": "Taxation",
+                "hint": "5",
+                "answer": "5"
             },
             {
                 "question": "5",
