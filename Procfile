@@ -1,1 +1,2 @@
-https://realtor-flashcards4ma.herokuapp.com/
+web: npm install && npm run-script build && npm run-script start:prod
+
