@@ -6,7 +6,7 @@ const app = express();
 app.use(express.urlencoded({extended: false}));
 app.use(cookieParser());
 
-app.use('/static', express.static('public'));
+app.use(express.static('public'));
 
 app.set('view engine', 'pug');
 
