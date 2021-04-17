@@ -1,17 +1,15 @@
 {
   "name": "realtor-flashcards",
   "version": "1.0.0",
-  "description": "",
+  "description": "Flash cards to help study for Real Estate",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
-  
   "engines": {
     "node": "15.11.0"
   },
-
   "keywords": [
     "realtor-flashcards",
     "heroku"
@@ -24,5 +22,14 @@
     "heroku": "^7.52.0",
     "node": "^15.12.0",
     "pug": "^3.0.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JelenaMF/realtor-flashcards.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JelenaMF/realtor-flashcards/issues"
+  },
+  "homepage": "https://github.com/JelenaMF/realtor-flashcards#readme"
 }
