@@ -1,48 +1,34 @@
 const express = require('express');
+const cookieParser = require('cookie-parser');
 
-const http = require('http');
+const app = express();
+/*body-parser is now apart of express so install this depency is no longer needed*/
+app.use(express.urlencoded({extended: false}));
+app.use(cookieParser());
 
-const path = require('path');
-const PORT = process.env.PORT || 5000;
+app.use('/static', express.static('public'));
 
-express()
-  .use(express.urlencoded({extended: false}))
-  .use(cookieParser())
-  .use(express.static(path.join(__dirname, 'public')))
-  .set('views', path.join(__dirname, 'views'))
-  .set('view engine', 'pug')
-  .get('/', (req, res) => res.render('pages/index'))
-  .get('/index', (req, res) => res.send(cool()))
-  .listen(PORT, () => console.log(`Listening on ${ PORT }`));
+app.set('view engine', 'pug');
 
 const mainRoutes = require('./routes');
 const cardRoutes = require('./routes/cards');
 
-express()
-    .use(mainRoutes)
-    .use('/cards', cardRoutes)
-    .use((req, res, next) => {
-    const err = new Error('Oh no... Something went wrong.');
-    next();
-}).use((req, res, next) => {
-   
-    next();
-    
-}).use((req, res, next) => {
+app.use(mainRoutes);
+app.use('/cards', cardRoutes);
+
+app.use((req, res, next) => {
     const err = new Error('Not Found');
     err.status = 404;
     next(err);
-}).use((err, req, res, next) => {
+});
+
+app.use((err, req, res, next) => {
     res.locals.error = err; 
     res.status(err.status);
     res.render('error');
 }); 
 
-http.createServer((req, res) => {
-    res.writeHead(200, {'Content-Type': 'text/pain'});
-    res.render('/index');
-}).listen(3000, () => {
-
-    console.log(`Server running at localhost: 3000`);
+app.listen(3000, () => {
+console.log('The application is running on localhost:3000!')
 
 });
