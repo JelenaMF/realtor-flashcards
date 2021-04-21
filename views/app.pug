@@ -7,7 +7,7 @@ block main
                 p.namecard-greeting Welcome, #{name}! 
                 // creates a goodbye button on the home page 
                 form.namecard-exit(action='/goodbye' method='post')
-                    button(type='button') 
+                    button(type='submit') 
                         img(src='/static/img/close.svg')
             else 
                 p.namecard-greeting Hello, student!
