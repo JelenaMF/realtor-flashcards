@@ -58,14 +58,50 @@
                 "answer": "Entire resources including tangible and intangible"
             },
             {
-                "question": "Taxation",
-                "hint": "5",
-                "answer": "5"
+                "question": "What is dedication?",
+                "hint": "land no longer private",
+                "answer": "Giving up private land for public use."
             },
             {
-                "question": "5",
-                "hint": "5",
-                "answer": "5"
+                "question": "What is another term for farming?",
+                "hint": "think business",
+                "answer": "the practice of concentrating business efforts in a particular geographical area"
+            },
+            {
+                "question": "What is a home built from blueprints supplied by the buyer called?",
+                "hint": "A home your way",
+                "answer": "A custom home"
+            },
+            {
+                "question": "What is NOT the term for farming?",
+                "hint": "Another term for farming but not in regards to business",
+                "answer": "involves raising crops, fish, or animals"
+            },
+            {
+                "question": "What's an organization with at least one real estate broker acting as the agen for others in negotiating the sale or rental of real property for a fee called?",
+                "hint": "organization for sales ",
+                "answer": "A real estate brokerage"
+
+            },
+            {
+                "question": "Who can complete an appraisal?",
+                "hint": "a person who specializes in apprasals",
+                "answer": "A licensed appraiser using USPAP standards"
+            } ,
+            {
+                "question": "What is an acronym for MLS",
+                "hint": "think a system",
+                "answer": "Multiple Listing System"
+            },
+            {
+                "question": "What is not considered a major real estate licensee sales specialty?",
+                "hint": "not",
+                "answer": "Cemetery Plots"
+            },
+            {
+                "question": "What is considered a major real estate licensee sales specialty?",
+                "hint": "homes",
+                "answer": "Resedential0"
             }
         ]
     }
