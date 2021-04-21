@@ -28,3 +28,4 @@ router.post('/goodbye', (req, res) => {
     res.clearCookie('username').redirect('/hello'); 
 });
 
+module.exports = router;
