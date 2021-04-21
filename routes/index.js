@@ -21,13 +21,10 @@ router.get('/hello', (req, res) =>{
 });
 
 router.post('/hello', (req, res) =>{
-    res.cookie('username', req.body.username);
-    res.redirect('/');
+    res.cookie('username', req.body.username).redirect('/');
 });
 
 router.post('/goodbye', (req, res) => {
-    res.clearCookie('username');
-    res.redirect('/hello'); 
+    res.clearCookie('username').redirect('/hello'); 
 });
 
-module.exports = router;
