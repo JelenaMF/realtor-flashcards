@@ -10,7 +10,7 @@ header {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
-  color: #D64226;
+  color: #034f6a;
   font-size: 14px;
 }
 
@@ -56,15 +56,15 @@ input {
 .button-primary-small {
   margin-top: 50px;
   background-color: #fff;
-  border: 2px #D64226 solid;
+  border: 2px #034f6a solid;
   font-size: 1em;
   padding: 8px 10px;
-  color: #D64226;
+  color: #034f6a;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 .button-primary-small:hover {
-  background-color: #D64226;
+  background-color: #034f6a;
   color: #fff;
   cursor: pointer;
   -webkit-transition: all 0.3s;
@@ -120,10 +120,10 @@ input {
 .namecard-submit {
   margin-top: 50px;
   background-color: #fff;
-  border: 2px #D64226 solid;
+  border: 2px #034f6a solid;
   font-size: 1em;
   padding: 8px 10px;
-  color: #D64226;
+  color: #034f6a;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   width: 100%;
   display: block;
@@ -131,7 +131,7 @@ input {
 }
 
 .namecard-submit:hover {
-  background-color: #D64226;
+  background-color: #034f6a;
   color: #fff;
   cursor: pointer;
   -webkit-transition: all 0.3s;
@@ -202,7 +202,7 @@ input {
 }
 
 .card-answer .card-title {
-    background-color: #D64226;
+    background-color: #034f6a;
     color: #F5F3ED;
 }
 
@@ -216,7 +216,7 @@ input {
 }
 
 .card-answer {
-  background-color: #D64226;
+  background-color: #034f6a;
 }
 
 .card-answer div:first-of-type {
