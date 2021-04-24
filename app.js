@@ -2,7 +2,7 @@ const express = require('express');
 const cookieParser = require('cookie-parser');
 
 const app = express();
-/*body-parser is now apart of express so install this depency is no longer needed*/
+
 app.use(express.urlencoded({extended: false}));
 app.use(cookieParser());
 
