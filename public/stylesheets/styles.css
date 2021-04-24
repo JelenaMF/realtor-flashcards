@@ -236,10 +236,10 @@ input {
   padding: 8px 10px;
   font-size: .8em;
   margin: auto;
-  color: #C79735;
+  color: #0d6280;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   background-color: #F5F3ED;
-  border: 1px solid #C79735;
+  border: 1px solid #0d6382;
 }
 
 #content button {
@@ -248,7 +248,7 @@ input {
 
 #content button:hover {
   cursor: pointer;
-  background-color: #C79735;
+  background-color: #146684;
   color: #fff;
 }
 
@@ -261,7 +261,7 @@ input {
 
 .card-flip {
   max-width: 25px;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   border-radius: 50px;
   padding: 20px;
   border: 2px solid #fff;
@@ -269,7 +269,7 @@ input {
 }
 
 .card-flip:hover {
-  border: 2px solid #D64226;
+  border: 2px solid #034f6a;
   cursor: pointer;
 }
 
