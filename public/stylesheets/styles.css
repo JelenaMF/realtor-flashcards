@@ -7,8 +7,7 @@ body {
 }
 
 header {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  
   text-align: center;
   color: #034f6a;
   font-size: 14px;
@@ -172,7 +171,7 @@ input {
   min-height: 425px;
   box-sizing: border-box;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 10px;
   padding-bottom: 30px;
   color: #727C85;
   text-align: center;
@@ -344,7 +343,21 @@ input {
   height: 24px;
 }
 
-@media (max-width: 12450px) { 
-
+@media (max-width: 1024px) { 
+  .card {
+    position: relative;
+    align-items: center;
+    max-width: 400px;
+    min-height: 425px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    color: #727C85;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 1.5;
+    border-bottom: 4px solid rgba(0,0,0,.1);
+  }
   
  }
