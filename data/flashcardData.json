@@ -18,7 +18,7 @@
                 "answer": "Controls what can be developed on a land and what you can do with it."
             },
             {
-                "question": "tax shelter",
+                "question": "What is the purpose of tax shelter?",
                 "hint": "save money",
                 "answer": "reduces tax liability"
             },
@@ -48,9 +48,9 @@
                 "answer": "a swap of one investment property for another that allows capital gains tax to be deferred."
             },
             {
-                "question": "Liabilities",
+                "question": "what's all debt, including accounts and notes that are payable, known as?",
                 "hint": "debt",
-                "answer": "all debt, including accounts and notes are payable."
+                "answer": " Liabilities"
             },
             {
                 "question": "Asset",
@@ -89,7 +89,7 @@
                 "answer": "A licensed appraiser using USPAP standards"
             } ,
             {
-                "question": "What is an acronym for MLS",
+                "question": "What does the acronym MLS stand for?",
                 "hint": "think a system",
                 "answer": "Multiple Listing System"
             },
@@ -102,6 +102,97 @@
                 "question": "What is considered a major real estate licensee sales specialty?",
                 "hint": "homes",
                 "answer": "Residential"
+            },
+
+            {
+                "question": "What's considered personal property?",
+                "hint": "not real",
+                "answer": "Any property which is not real property."
+            },            
+            {
+                "question": "What's a proprietary Lease?",
+                "hint": "Used in a co-op context",
+                "answer": "A lease given by a corporation to another that provides the share owner with the right to live in a particular unit or apartment."
+            },
+            {
+                "question": "What is a prospectus?",
+                "hint": "Used for condominium development",
+                "answer": "A document that summarizes some of the major points contained in the condominium documents."
+            },
+            {
+                "question": "Who prepares the prospectus?",
+                "hint": "a developer that's developed a certain amount of condominium",
+                "answer": " A developer of 20 or more condominium units."
+            },
+            {
+                "question": "What type of lease is used in co-ops?",
+                "hint": "It's given from one corporation to another",
+                "answer": "A Proprietary Lease."
+            },
+            {
+                "question": "What document does a developer need after building more than 20 condominium units?",
+                "hint": "This document summarizes the condominium documents",
+                "answer": "a prospectus"
+            },
+            {
+                "question": "What's considered real estate?",
+                "hint": "soil",
+                "answer": "Land plus anything permanently attached to land"
+            },
+            {
+                "question": "What's real Property?",
+                "hint": "soil, etc",
+                "answer": "Land, things affixed to land, appurtenances, plus the bundle of rights."
+            },
+            {
+                "question": "Remainderman is known as...",
+                "hint": "inheritance or entitlement",
+                "answer": "A person who inherits or is entitled to inherit property upon the termination of the estate of the former owner."
+            },
+            {
+                "question": "what is the Right of Survivorship?",
+                "hint": "The distinguishing feature of a joint tenancy.",
+                "answer": "The right of a surviving tenant or tenants to succeed to the entire interest of the deceased tenant."
+            },
+            {
+                "question": "The distinguishing feature of a joint tenancy is known as",
+                "hint": "The rights of a surviving tenant(s) to succeed to the entire interest of the deceased tenant",
+                "answer": "The Right of Survivorship."
+            },
+            {
+                "question": "What are the beneficial interests associated with real property?",
+                "hint": "There are 5 rights",
+                "answer": "Possession, Enjoyment, Disposition, Control and Exclusion."
+            },
+            {
+                "question": "Separate Property Rights",
+                "hint": "The distinguishing feature of a joint tenancy.",
+                "answer": "Are rights that can be sold separately like, possession, enjoyment, disposition, controls and exclusion."
+            },
+            {
+                "question": "what's a tenancy at sufferance?",
+                "hint": "A temporary visa has expired or overstaying your welcome",
+                "answer": "An estate lawfully acquired for a temporary period of time but retained after a period of lawful possession has expired."
+            },
+            {
+                "question": "An estate that may be terminated by either party at any time with proper notice is known as...",
+                "hint": "an open lease",
+                "answer": "Tenancy at will"
+            },
+            {
+                "question": "what is a tenancy by Entireties?",
+                "hint": "The distinguishing feature of a joint tenancy.",
+                "answer": "A tenancy created by a husband and wife jointly owning real property with an automatic and complete right of survivorship."
+            },
+            {
+                "question": "what is Tenancy in Common?",
+                "hint": "interests are not passed to surviving tenants",
+                "answer": "A form of ownership by two or more persons each having an equal or unequal interest and passing the interest to heirs."
+            },
+            {
+                "question": "Time-share",
+                "hint": "evil",
+                "answer": "A form of subdivision of real property into rights to the recurrent exclusive use or occupancy of a lot, parcel, unit or segment of real property, on an annual or some other periodic basis for a specified period of time."
             }
         ]
     }
